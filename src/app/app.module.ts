@@ -1,19 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+// MDB Angular Free
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import{NgbdModalBasic} from './modal-basic';
+import { BasicComponent  } from './basic/basic.component';
+import { ModalTryComponent } from './modal-try/modal-try.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgbdModalBasic
+    BasicComponent,
+    ModalTryComponent,
+    
   ],
   imports: [
     BrowserModule,
-    NgbModule,
+    
     AppRoutingModule
   ],
   providers: [],
